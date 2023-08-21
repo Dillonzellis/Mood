@@ -17,8 +17,7 @@ export default function DashboardLayout({
               <UserButton />
             </div>
           </header>
-          <main>
-            content
+          <main className="h-full">
             {children}
           </main>
         </div>
