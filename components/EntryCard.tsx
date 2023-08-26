@@ -1,10 +1,7 @@
 type EntryCardProps = {
-  entry: any,
-}
+  entry: any;
+};
 
 export const EntryCard: React.FC<EntryCardProps> = ({ entry }) => {
-  return (
-    <div>{entry.id}</div>
-  )
-}
-
+  return <div>{entry.id}</div>;
+};
