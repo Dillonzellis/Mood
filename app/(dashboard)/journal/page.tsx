@@ -1,5 +1,6 @@
 import { EntryCard } from "@/components/EntryCard";
 import { NewEntryCard } from "@/components/NewEntryCard";
+import { analyze } from "@/util/ai";
 import { getUserByClerkID } from "@/util/auth";
 import { prisma } from "@/util/db";
 import Link from "next/link";
